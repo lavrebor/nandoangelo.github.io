@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sistema para acompanhamento de estágios">
+    <meta name="author" content="SEU NOME AQUIA"> <!-- Insira o nome da dupla -->
+
+    <!-- Icone de favoritos -->
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+
+    <!-- Título da Página -->
+    <title>Modelo</title>
+
+    <!-- Folhas de estilo do Bootstrap -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/bootstrap-theme.min.css" rel="stylesheet">
+    
+    <!-- Folha de estilo dos ícones -->
+    <link href="../../css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Folha de estilo do template -->
+    <link href="../../css/template.css" rel="stylesheet">
+
+    <!-- Debugs e outras funcionalidades para IE -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  <!-- Barra de navegacao -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- Título do projeto -->
+          <a class="navbar-brand" href="../../index.html" title="Sistema para Acompanhamento de Estágios">
+            <i class="fa fa-users text-primary"></i> SAE | Católica-TO
+          </a>
+        </div>
+        <!-- Ítens do menu -->
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <!-- ITEM: Inicio -->
+            <li class="active"><a href="#">Início</a></li>
+            
+            <!-- ITEM: Configurações -->
+            <li class="dropdown">
+              <!-- Titulo do Ítem -->
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" >
+                Configurações 
+              <b class="caret"></b></a>
+              <!-- Ítens do Submenu -->
+              <ul class="dropdown-menu">
+                <li><a href="#">Opção</a></li>
+                <li><a href="#">Outra opção</a></li>
+                <li><a href="#">Algo mais aqui</a></li>
+                <!-- Divisor do submenu -->
+                <li class="divider"></li>
+                <li><a href="#">Opção separada</a></li>
+                <!-- Mais um divisor -->
+                <li class="divider"></li>
+                <li><a href="#">Mais uma opção separada</a></li>
+              </ul>
+            </li>
+
+            <!-- ITEM: Exemplos -->
+            <li class="dropdown">
+              <!-- Titulo do Ítem -->
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" >
+                Exemplos 
+              <b class="caret"></b></a>
+              <!-- Ítens do Submenu -->
+              <ul class="dropdown-menu">
+                <li><a href="#">Consulte</a></li>
+                <li><a href="#">Os slides</a></li>
+                <li><a href="#">Para Saber mais</a></li>
+              </ul>
+            </li>
+            <!-- ITEM: Ajuda -->
+            <li>
+              <a href="http://getbootstrap.com/css/" 
+                 title="Precisa de Ajuda?"
+                 target="_blank">
+                  <i class="fa fa-question-circle text-info"></i> 
+                  Ajuda
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+          	<!-- ITEM: User -->
+            <li class="dropdown">
+              <!-- Titulo do Ítem -->
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" >
+                <i class="fa fa-user fa-lg"></i> 
+              <b class="caret"></b></a>
+              <!-- Ítens do Submenu -->
+              <ul class="dropdown-menu">
+                <li><a href="#">Configurações</a></li>
+                <li><a href="#">Tarefas</a></li>
+                <li class="divider"></li>
+                <li><a href="../../index.html">Sair</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!-- Barra de Pesquisa -->
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Pesquisar..."> &nbsp;
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Overview</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Export</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Nav item</a></li>
+            <li><a href="">Nav item again</a></li>
+            <li><a href="">One more nav</a></li>
+            <li><a href="">Another nav item</a></li>
+            <li><a href="">More navigation</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Nav item again</a></li>
+            <li><a href="">One more nav</a></li>
+            <li><a href="">Another nav item</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Cadastro de exemplo</h1>
+
+          <div class="row">
+            <div class="col-md-12">
+              <form role="form">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Nome do aluno</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o nome do aluno">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Matrícula</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Digite a matrícula do aluno">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Data de Nascimento</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Digite a Data de Nascimento">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputFile">File input</label>
+                  <input type="file" id="exampleInputFile">
+                  <p class="help-block">Example block-level help text here.</p>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Check me out
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../js/jquery-1.11.0.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/docs.min.js"></script>
+  </body>
+</html>

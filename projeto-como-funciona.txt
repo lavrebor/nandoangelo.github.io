@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------
+  
+  Aqui temos a pasta onde a mágica acontece, repare que existem 
+  outras pastas para melhor organização dos arquivos, sendo que 
+  na raiz encontra-se o "index.html" onde ficará nossa tela de
+  login. Na pasta "pages" ficarão as telas do projeto 
+  desenvolvidas por cada dupla.
+
+  Mantenha a organização da pasta e cuidado para não alterar
+  o arquivo de outra dupla sem permissão. Lembre-se que a sua nota 
+  depende do desempenho de todos aqui. Então ajude, compartilhe 
+  experiências tire dúvidas.
+                                                  FERNANDO ANGELO
+--------------------------------------------------------------------------
+
+FÓRUM:
+==========================================================================
+FERNANDO ANGELO: Poste suas dúvidas aqui, inicie utilizando com seu nome e
+depois insira a dúvida, a próxima postagem deverá ser a resposta à pergunta.
+Para melhorar o visual deste bloco de notas, insira quebra de linhas dessa
+medida, para que o texto não acabe se perdendo numa linha grande d+.
+
+FERNANDO ANGELO: Só para lembrar, o projeto baseia-se em Bootstrap (V.3.1.1)
+que é uma mão na roda na hora de desenvolver. Quem quiser ver como ele é 
+legal copie e cole esse link no navegador: 
+http://getbootstrap.com/getting-started/#examples
+
+Testing
+
